@@ -13,6 +13,20 @@
             transition: all 0.5s ease;
         }
     }
+    &__group {
+        display: flex;
+        border-bottom: 1px dotted #ccc;
+        margin-bottom: 20px;
+    }
+    &__group-title {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 100px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 20px;
+        font-size: 17px;
+    }
     &__container {
         display: flex;
         flex-flow: wrap;
